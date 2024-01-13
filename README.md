@@ -1,7 +1,7 @@
 Lo script è imperfetto, e ben lontano dal pareggiare Shellter in fatto a capacità, ma offre comunque delle feature interessanti, e può bypassare alcuni antivirus se usato correttamente.
 
 1. Esegue un PE file (.exe) e mappa sul terminal tutte le sezioni, con descrizioni dettagliate;
-2. Aggiunge l'.EXE alle eccezioni di DEP e ASLR prima di procedere all'iniezione. Questo step assicurerà che potrete iniettare codice anche in sezioni pazze, completamente indisturbati;
+2. Aggiunge l'.EXE alle eccezioni di DEP e ASLR prima di procedere all'iniezione, interfacciandosi con Powershell (per sfruttare quest'abilità dovrete eseguirlo come Amministratore). Questo step assicurerà che potrete iniettare codice anche in sezioni pazze, completamente indisturbati;
 3. Tecnica del PH (Process Hollowing) con WriteProcessMemory;
 
 
