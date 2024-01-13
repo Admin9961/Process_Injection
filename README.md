@@ -5,7 +5,7 @@ Lo script è imperfetto, e ben lontano dal pareggiare Shellter in fatto a capaci
 3. Tecnica del PH (Process Hollowing) con WriteProcessMemory;
 
 
-La sintassi per passargli shellcode come argomento è "python injector.py esempio.exe esempio.bin". Lo shellcode in questione dev'essere presentato sotto forma di raw binary file (.bin) che vi conviene criptare per conto vostro allo scopo di superare almeno l'analisi statica.
+La sintassi per passargli shellcode come argomento è "python injector.py esempio.exe esempio.bin". Lo shellcode in questione dev'essere presentato sotto forma di raw binary file (.bin) che vi conviene criptare per conto vostro allo scopo di superare almeno l'analisi statica. Dovrete inoltre installare i requisiti indicati in requirements, attraverso il comando "pip install -r requirements.txt"
 
 TODO:
 1. Modificare la descrizione delle sezioni per includere nella descrizione i permessi (RWX) di ciascuna sezione individuata;
