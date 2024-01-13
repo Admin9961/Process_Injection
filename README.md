@@ -10,5 +10,6 @@ La sintassi per passargli shellcode come argomento è "python injector.py esempi
 TODO:
 1. Modificare la descrizione delle sezioni per includere nella descrizione i permessi (RWX) di ciascuna sezione individuata;
 2. Includere un metodo che può bypassare l'antivirus in situazioni delicate. Se si pianifica di sfruttare lo script per iniettare una normale reverse shell va bene, ma se si intende iniettare qualcosa di più specifico (come Meterpreter) c'è più lavoro da fare con offuscamento ecc.
+3. Implementare un metodo per rendere il risultato dell'injection più silenzioso (ad esempio sopprimere la GUI dell'app originale, un MUST ben noto per ottenere una backdoor di tutto rispetto)
 
-3. Lo script è fornito solo a scopo educativo, non voglio la pula in casa 🚨 🚨 🚨
+Tuttavia, oltre che a shellcode per trasformare l'app in una backdoor, lo script può essere usato anche a scopi di debugging, perché accetta in input qualsiasi tipo di dati binari. Ovviamente è fornito solo a scopo educativo, non voglio la pula in casa 🚨 🚨 🚨
